@@ -1,63 +1,74 @@
+
 [
-    {
+      {
+        "name": "Shirt 1",
+        "desc": "This is a stylish shirt with a modern design.",
+        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+        "price": 29.99,
+        "category" : "Shirts"
+      },
+      {
+        "name": "Pants 1",
+        "desc": "These pants are comfortable and perfect for everyday wear.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 39.99,
+        "category" : "Pants and Skirts"
+      },
+      {
         "name": "Long Skirt",
         "desc": "This is a long skirt fit for casual wearing in autumn",
         "price": 159,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+        "category" : "Pants and Skirts"
     },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 149,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 139,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 129,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 119,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 109,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 99,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },    
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 89,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 79,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    },
-    {
-        "name": "Long Skirt",
-        "desc": "This is a long skirt fit for casual wearing in autumn",
-        "price": 69,
-        "imageURL": "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-    }
+      {
+        "name": "Jacket 1",
+        "desc": "Stay warm with this trendy jacket.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 59.99,
+        "category" : "Jacket"
+      },
+      {
+        "name": "Shirt 2",
+        "desc": "A classic shirt suitable for any occasion.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 24.99,
+        "category" : "Shirts"
+      },
+      {
+        "name": "Pants 2",
+        "desc": "These pants offer a relaxed fit and are perfect for lounging.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 49.99
+      },
+      {
+        "name": "Skirt 2",
+        "desc": "A flowy skirt with a vibrant pattern.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 39.99,
+        "category" : "Pants and Skirts"
+      },
+      {
+        "name": "Jacket 2",
+        "desc": "A lightweight jacket that's ideal for transitional weather.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 69.99,
+        "category" : "Jacket"
+      },
+      {
+        "name": "Shirt 3",
+        "desc": "A trendy shirt with a unique print.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 19.99,
+        "category" : "Shirts"
+      },
+      {
+        "name": "Pants 3",
+        "desc": "These pants offer a slim fit and are perfect for formal occasions.",
+        "imageURL": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "price": 54.99,
+        "category" : "Pants and Skirts"
+      }
+    ]
 
-]
+  
