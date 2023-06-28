@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { ProductList } from './components/ProductList';
 
 function App() {
   return (
     <div className="App">
-      <p>Template for React App</p>
+     <ProductList />
     </div>
   );
 }
