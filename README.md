@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+## Product Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You're building an online store! The store sells a variety of business and casual clothes, such as pants, skirts, shirts and jackets.
 
-## Available Scripts
+All the product information is below in a JavaScript array that you can use in your code.
 
-In the project directory, you can run:
+### Part 1 - list the products
 
-### `yarn start`
+Create two components `ProductList` and `Product`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The `Product` component should show all the details about a single product,
+formatted nicely with headings and displaying the price in dollars.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The `ProductList` component should use the `Product` component to list all of the available products.
 
-### `yarn test`
+### Part 2 - Filter by category
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create 4 buttons or links at the top of the `ProductList` component:
 
-### `yarn build`
+ - `Shirts`
+ - `Pants and skirts`
+ - `Jackets`
+ - `All products`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Use those three buttons and some React state to filter the list of products to only show the products in that category. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The `All products` button should remove the filter and show all products again.
+This should also be the starting-state of the `ProductList` component.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Extensions
 
-### `yarn eject`
+Text search
+ - Add a text box in the `ProductList` component to act as a search box
+ - When searching, show only the products that include the search text in the name or description.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sort by price
+ - Add an option to sort the products by price, both lowest-to-highest and highest-to-lowest.
