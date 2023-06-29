@@ -1,37 +1,24 @@
-## Product Search
+# Product Search - Online Store
 
-You're building an online store! The store sells a variety of business and casual clothes, such as pants, skirts, shirts and jackets.
+This is an online store application built using React. The store sells a variety of business and casual clothes, including pants, skirts, shirts, and jackets.
 
-All the product information is below in a JavaScript array that you can use in your code.
+## Components
 
-### Part 1 - list the products
+### ProductList
 
-Create two components `ProductList` and `Product`.
+The `ProductList` component displays a list of available products. It utilizes the `Product` component to render individual product details.
 
-The `Product` component should show all the details about a single product,
-formatted nicely with headings and displaying the price in dollars.
+### Product
 
-The `ProductList` component should use the `Product` component to list all of the available products.
+The `Product` component displays the details of a single product. It formats the information nicely with headings and displays the price in dollars.
 
-### Part 2 - Filter by category
+## Filtering by Category
 
-Create 4 buttons or links at the top of the `ProductList` component:
+The `ProductList` component provides filtering functionality based on the category of products. At the top of the component, there are four buttons that allow users to filter the products:
 
- - `Shirts`
- - `Pants and skirts`
- - `Jackets`
- - `All products`
+- Shirts: Clicking this button will display only the shirts in the product list.
+- Pants and Skirts: Clicking this button will display only the pants and skirts in the product list.
+- Jackets: Clicking this button will display only the jackets in the product list.
+- All Products: Clicking this button will remove the category filter and display all products.
 
-Use those three buttons and some React state to filter the list of products to only show the products in that category. 
-
-The `All products` button should remove the filter and show all products again.
-This should also be the starting-state of the `ProductList` component.
-
-### Extensions
-
-Text search
- - Add a text box in the `ProductList` component to act as a search box
- - When searching, show only the products that include the search text in the name or description.
-
-Sort by price
- - Add an option to sort the products by price, both lowest-to-highest and highest-to-lowest.
+When a filter button is clicked, the list of products is updated to show only the products in that category. Clicking the "All Products" button removes the filter and displays all products, which is also the initial state of the `ProductList` component.
