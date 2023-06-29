@@ -1,20 +1,17 @@
 .card {
-    background-color: whitesmoke;
-    width: 400px;
-    height: 600px;
-    color:darkslateblue;
-    font-size: large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    border-radius: 5px;
+  background-color: whitesmoke;
+  width: 400px;
+  height: 600px;
+  color: darkslateblue;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px;
 }
-
-
 
 img {
-    width: 380px;
-    height: 380px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-top: 10px;
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 10px;
 }
-
